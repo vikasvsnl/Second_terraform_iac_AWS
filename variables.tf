@@ -55,9 +55,11 @@ variable "company" {
 variable "project" {
   type        = string
   description = "Project name for resource tagging"
+  default = "Second_terraform_iac_aws"
 }
 
 variable "billing_code" {
   type        = string
   description = "Billing code for resource tagging"
+  default = "sehgal_billing_center"
 }
