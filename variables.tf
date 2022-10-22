@@ -1,3 +1,5 @@
+### Syantax to pass variable via cli terraform plan -var=aws_access_key="AKIA5" -var=aws_secret_key="54EUMhUkQip"
+
 variable "aws_access_key" {
   type        = string
   description = "AWS Access Key"
